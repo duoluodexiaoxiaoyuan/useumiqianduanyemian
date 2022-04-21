@@ -1,0 +1,28 @@
+.searchBar {
+  display: flex;
+  margin-bottom: 10px;
+}
+.searchBar .searchInput {
+  width: 100%;
+  margin-right: 5px;
+}
+.searchBar .searchButton {
+  width: 60px;
+}
+.goodsList .goodsItem {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+.goodsList .goodsItem .goodsImage {
+  width: 30px;
+  margin-right: 10px;
+}
+.goodsList .goodsItem .goodsInfo .goodsTitle {
+  font-size: 16px;
+}
+.goodsList .goodsItem .goodsInfo .goodsPrice {
+  font-size: 18px;
+  color: red;
+  font-style: italic;
+}
